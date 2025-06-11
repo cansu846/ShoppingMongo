@@ -1,5 +1,5 @@
 ﻿@model List<ResultProductDto>
-<section class="bg0 p-t-23 p-b-140">
+<section class="bg0 p-t-23 p-b-140" id="productArea">
     <div class="container">
         <div class="p-b-10">
             <h3 class="ltext-103 cl5">
@@ -26,24 +26,34 @@
                     </button>
                 }
 
-                <div class="flex-w flex-c-m m-tb-10">
-                    <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn3 trans-04 m-r-8 m-tb-4 js-show-filter">
+                <div class="">
+                  @*   <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn3 trans-04 m-r-8 m-tb-4 js-show-filter">
                         <i class="icon-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-filter-list"></i>
                         <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
                         Filter
-                    </div>
+                    </div> *@
 
-                    <div class="">
-                        <form asp-action="GetCitiesSearchByName" method="get">
-                            <div class="form-group mt-4">
-                                <i class="icon-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-search"></i>
-                                <i class="icon-close-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
-                                <input type="text" class="form-control" style="display:inline-block; width: 60%;"
-                                       name="searchString" value="@ViewData[""]" placeholder="Search">
-                                <input type="submit" value="Search product" class="btn btn-outline-warning border-0" style="display:inline-block; width: 100px;" />
-                            </div>
+                    <div class="mt-3">
+                        <form id="searchForm" method="get" class="d-flex align-items-center gap-2">
+                          @*   <!-- Arama ikonu -->
+                            <i class="zmdi zmdi-search fs-5 text-secondary"></i> *@
+
+                            <!-- Arama kutusu -->
+                            <input type="text"
+                                   name="searchString"
+                                   value="@ViewData["currentFilter"]"
+                                   class="form-control"
+                                   placeholder="Product name"
+                                   style="max-width: 300px;" />
+
+                            <!-- Buton -->
+                            <button type="submit" class="btn btn-warning">
+                                <i class="zmdi zmdi-search fs-15 text-secondary"></i>
+                                Search
+                            </button>
                         </form>
                     </div>
+
 
                 </div>
 
@@ -248,7 +258,7 @@
                 </div>
             </div>
         </div>
-        <div class="row product-list" id="productArea">
+        <div class="row product-list" >
 
             @foreach (var item in Model)
             {
@@ -295,14 +305,43 @@
     </div>
 </section>
 
+
 <!-- jQuery CDN -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-//Bu kısım data-filter ile verileri gostermek için oluşturuldu
-<script>
-    //sayfa tamamen yüklendiğinde çalışacak bir jQuery fonksiyonudur.
+@* //bu kısım search alanı için oluşturuldu
+ *@<script>
+    $(document).ready(function(){
+        $("#searchForm").submit(function(e){
+            e.preventDefault();  //sayfa yenilemeyi engeller boylece form gönderildiğinde sayfa yenilenmeden işlem yapılabilir (AJAX).
+
+@*             //name="searchString" olan inputtan (arama kutusu) değeri alır.
+ *@
+            let searchValue = $('input[name="searchString"]').val();
+
+@*             //Sayfa yenilemeden arka plana bir HTTP isteği gönderir.
+ *@
+            $.ajax({
+                url:"/Default/GetProductsByCategoryNameSearch",
+                type:"get",
+                data:{searchString:searchValue},
+                success:function(result){
+                    $("#productArea").html(result)
+                },
+                error:function(){
+                    alert("Arama sırasında hata oluştu");
+                }
+
+            })
+        });
+    });
+</script>
+
+@* //Bu kısım data-filter ile verileri gostermek için oluşturuldu
+ *@<script>
+   @*  //sayfa tamamen yüklendiğinde çalışacak bir jQuery fonksiyonudur.
     //document ready fonksiyonudur.
-    //Amaç: Sayfa yüklenmeden JavaScript’in çalışmasını önlemek.
+    //Amaç: Sayfa yüklenmeden JavaScript’in çalışmasını önlemek. *@
 
     $(function(){
         $('[data-filter]').on('click', function(){
@@ -321,8 +360,8 @@
 
 <script>
 
-    // JavaScript ile AJAX isteği
-    //bu kısım ajax için oluşturuldu
+   @*  // JavaScript ile AJAX isteği
+    //bu kısım ajax için oluşturuldu *@
     $(function(){
             $(".category-btn").click(function(){
             let category = $(this).data("category");

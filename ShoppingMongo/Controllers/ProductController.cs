@@ -26,6 +26,7 @@ namespace ShoppingMongo.Controllers
             return View(values);
         }
 
+
         [HttpGet]
         public async Task<IActionResult> CreateProduct()
         {

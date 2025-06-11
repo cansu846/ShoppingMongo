@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using ShoppingMongo.Dtos.ProductDtos;
+using ShoppingMongo.Services.CategoryService;
 using ShoppingMongo.Services.ProductService;
 
 namespace ShoppingMongo.Controllers
@@ -7,14 +9,39 @@ namespace ShoppingMongo.Controllers
     public class DefaultController : Controller
     {
         private readonly IProductService _productService;
-
-        public DefaultController(IProductService productService)
+        private readonly ICategoryService _categoryService; 
+        private readonly IMapper _mapper;
+        public DefaultController(IProductService productService,
+            ICategoryService categoryService,   
+            IMapper mapper)
         {
             _productService = productService;
+             _categoryService = categoryService;
+            _mapper = mapper;   
         }
-        public IActionResult Index()
+
+        [HttpGet]
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(); 
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> GetProductsByCategoryNameSearch(string searchString)
+        {
+            var products = await _productService.GetAllProductWithCategoryAsync();// tüm ürünler
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                searchString = searchString.ToLower();
+                products = products
+                    .Where(p => p.ProductName != null && p.ProductName.ToLower().Contains(searchString))
+                    .ToList();
+            }
+            var productDto = _mapper.Map<List<ResultProductDto>>(products);
+            ViewBag.categories = await _categoryService.GetAllCategoryAsync();
+            ViewData["currentFilter"] = searchString;
+            return PartialView("~/Views/Shared/Components/_ProductPartial/Default.cshtml", productDto); // sadece ürün HTML'si döner
         }
 
         [HttpGet]

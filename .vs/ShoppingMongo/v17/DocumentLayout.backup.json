@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\viewcomponents\\default\\_productpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\viewcomponents\\default\\_productpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\shared\\components\\_productpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\shared\\components\\_productlistpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\shared\\components\\_productlistpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\services\\productservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\services\\productservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\services\\categoryservice\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\services\\categoryservice\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +35,8 @@
       "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\services\\productservice\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\services\\productservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\services\\productservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\viewcomponents\\default\\_menupartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\viewcomponents\\default\\_menupartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\viewcomponents\\default\\_productpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\viewcomponents\\default\\_productpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\shared\\components\\_menupartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\shared\\components\\_menupartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,8 +45,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 346,
-          "SelectedChildIndex": 10,
+          "DockedHeight": 316,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,130 +54,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Shared\\Components\\_ProductListPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Shared\\Components\\_ProductListPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Shared\\Components\\_ProductListPartial\\Default.cshtml",
-              "RelativeToolTip": "ShoppingMongo\\Views\\Shared\\Components\\_ProductListPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T12:47:11.076Z",
+              "DocumentIndex": 5,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Services\\CategoryService\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "ShoppingMongo\\Services\\CategoryService\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Services\\CategoryService\\CategoryManager.cs",
+              "RelativeToolTip": "ShoppingMongo\\Services\\CategoryService\\CategoryManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:44:10.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ShoppingMongo\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ShoppingMongo\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T12:38:26.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ProductManager.cs",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Services\\ProductService\\ProductManager.cs",
               "RelativeDocumentMoniker": "ShoppingMongo\\Services\\ProductService\\ProductManager.cs",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Services\\ProductService\\ProductManager.cs",
               "RelativeToolTip": "ShoppingMongo\\Services\\ProductService\\ProductManager.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAADwv0AAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T12:28:16.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Services\\ProductService\\IProductService.cs",
               "RelativeDocumentMoniker": "ShoppingMongo\\Services\\ProductService\\IProductService.cs",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Services\\ProductService\\IProductService.cs",
               "RelativeToolTip": "ShoppingMongo\\Services\\ProductService\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T12:26:55.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Shared\\Components\\_ProductPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Shared\\Components\\_ProductPartial\\Default.cshtml",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Shared\\Components\\_ProductPartial\\Default.cshtml",
               "RelativeToolTip": "ShoppingMongo\\Views\\Shared\\Components\\_ProductPartial\\Default.cshtml",
-              "ViewState": "AgIAADMBAAAAAAAAAAAAAEwBAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-11T08:50:40.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "_ProductPartial.cs",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\ViewComponents\\Default\\_ProductPartial.cs",
               "RelativeDocumentMoniker": "ShoppingMongo\\ViewComponents\\Default\\_ProductPartial.cs",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\ViewComponents\\Default\\_ProductPartial.cs",
               "RelativeToolTip": "ShoppingMongo\\ViewComponents\\Default\\_ProductPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T08:50:33.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DefaultController.cs",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Controllers\\DefaultController.cs",
               "RelativeDocumentMoniker": "ShoppingMongo\\Controllers\\DefaultController.cs",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Controllers\\DefaultController.cs",
               "RelativeToolTip": "ShoppingMongo\\Controllers\\DefaultController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wCsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T08:26:06.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Shared\\Components\\_MenuPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Shared\\Components\\_MenuPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Shared\\Components\\_MenuPartial\\Default.cshtml",
-              "RelativeToolTip": "ShoppingMongo\\Views\\Shared\\Components\\_MenuPartial\\Default.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T08:25:15.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_MenuPartial.cs",
-              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\ViewComponents\\Default\\_MenuPartial.cs",
-              "RelativeDocumentMoniker": "ShoppingMongo\\ViewComponents\\Default\\_MenuPartial.cs",
-              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\ViewComponents\\Default\\_MenuPartial.cs",
-              "RelativeToolTip": "ShoppingMongo\\ViewComponents\\Default\\_MenuPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T08:25:08.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Default\\Index.cshtml",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Default\\Index.cshtml",
               "RelativeToolTip": "ShoppingMongo\\Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-11T08:23:25.812Z",
               "EditorCaption": ""
@@ -193,22 +159,9 @@
           ]
         },
         {
-          "DockedHeight": 12,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 42,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "ShoppingMongo\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Entities\\Product.cs",
-              "RelativeToolTip": "ShoppingMongo\\Entities\\Product.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:57:31.086Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -220,6 +173,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingMongo\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Entities\\Product.cs",
+              "RelativeToolTip": "ShoppingMongo\\Entities\\Product.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T11:57:31.086Z",
+              "EditorCaption": ""
             }
           ]
         }

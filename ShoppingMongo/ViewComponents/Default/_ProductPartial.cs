@@ -15,6 +15,7 @@ namespace ShoppingMongo.ViewComponents.Default
             _productService = productService;   
             _categoryService = categoryService;
         }
+
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var values=await _productService.GetAllProductWithCategoryAsync();

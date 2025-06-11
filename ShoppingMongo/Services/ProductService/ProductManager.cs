@@ -82,7 +82,7 @@ namespace ShoppingMongo.Services.ProductService
             var value = await _productCollection.Find(x => x.ProductId == id).FirstOrDefaultAsync();
             return _mapper.Map<GetProductByIdDto>(value);
         }
-
+       
         public async Task UpdateProductAsync(UpdateProductDto updateProductDto)
         {
             if (updateProductDto.ImageUrlFormFile != null && updateProductDto.ProductName.Length > 0)

@@ -1,0 +1,32 @@
+﻿@model CreateProductDto
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <form method="post">
+        <label>Product Name</label>
+        <input class="form-control" type="text" asp-for="ProductName" />
+        <br />
+        <label>Price</label>
+        <input class="form-control" type="text" asp-for="ProductPrice" />
+        <br />
+        <label>Image</label>
+        <input class="form-control" type="file" asp-for="ImageUrlFormFile" />
+        <br />
+        <label>Product Name</label>
+        <input class="form-control" type="text" asp-for="ProductName" />
+        <br />
+        <label>Stock Count</label>
+        <input class="form-control" type="number" asp-for="StockCount" />
+        <br />
+        <label>Categories</label>
+        <select class="form-control form-select " asp-for="CategoryId" asp-items="ViewBag.v">
+            <option value="">-- Select Category --</option>
+        </select>
+        <br />
+        <button class="btn btn-primary" type="submit">Add Product</button>
+    </form>
+</div>

@@ -11,7 +11,7 @@ namespace ShoppingMongo.Services.CategoryService
         private readonly IMapper _mapper;
         private readonly IMongoCollection<Category> _categoryCollection;
 
-        public CategoryManager(Mapper mapper,
+        public CategoryManager(IMapper mapper,
             IDatabaseSettings databaseSettings)
         {
             var client = new MongoClient(databaseSettings.ConnectionString);
@@ -23,13 +23,26 @@ namespace ShoppingMongo.Services.CategoryService
 
         public async Task CreateCategoryAsync(CreateCategoryDto createCategoryDto)
         {
+            if (createCategoryDto.CategoryImage != null && createCategoryDto.CategoryImage.Length > 0)
+            {
+                var fileName = Path.GetFileName(createCategoryDto.CategoryImage.FileName);
+                //var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/cozastore-master/images", fileName);
+
+                //using (var stream = new FileStream(filePath, FileMode.Create))
+                //{
+                //    await createCategoryDto.CategoryImage.CopyToAsync(stream);
+                //}
+
+                //dosya adını veritabanında tutar
+                createCategoryDto.CategoryImagePath = "/cozastore-master/images/" + fileName;
+            }
             var category = _mapper.Map<Category>(createCategoryDto);    
             await _categoryCollection.InsertOneAsync(category);   
         }
 
         public async Task DeleteCategoryAsync(string id)
         {
-           await _categoryCollection.DeleteOneAsync(id);
+           await _categoryCollection.DeleteOneAsync(x=>x.CategoryId==id);
         }
 
         public async Task<List<ResultCategoryDto>> GetAllCategoryAsync()
@@ -43,12 +56,31 @@ namespace ShoppingMongo.Services.CategoryService
         {
             //firstordefaultasync, MongoDB veritabanında sorgu sonucunda eşleşen ilk dökümana ulaşmak için kullanılan bir metottur.
             //Eğer hiçbir döküman eşleşmezse, null döner.
-            var category = _categoryCollection.Find(x=>x.CategoryId==id)
+            var category = await _categoryCollection.Find(x => x.CategoryId == id).FirstOrDefaultAsync();
             return _mapper.Map<GetCategoryByIdDto>(category);   
+        }
+
+        public async Task<string> GetCategoryNameByIdAsync(string id)
+        {
+            var value = await _categoryCollection.Find(x=>x.CategoryId == id).FirstOrDefaultAsync();
+            return value?.CategoryName ?? "Category not found";
         }
 
         public async Task UpdateCategoryAsync(UpdateCategoryDto updateCategoryDto)
         {
+            if (updateCategoryDto.CategoryImage != null && updateCategoryDto.CategoryImage.Length > 0)
+            {
+                var fileName = Path.GetFileName(updateCategoryDto.CategoryImage.FileName);
+                //var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/cozastore-master/images", fileName);
+
+                //using (var stream = new FileStream(filePath, FileMode.Create))
+                //{
+                //    await createCategoryDto.CategoryImage.CopyToAsync(stream);
+                //}
+
+                //dosya adını veritabanında tutar
+                updateCategoryDto.CategoryImagePath = "/cozastore-master/images/" + fileName;
+            }
             //buradaki ?; Null koşullu erişim (null-conditional operator)
             //Eğer _mapper null değilse, Map<Category>(...) metodunu çağır.
             //Eğer _mapper null ise, bu satırı sessizce atla ve null döndür.

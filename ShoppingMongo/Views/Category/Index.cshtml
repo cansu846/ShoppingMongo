@@ -1,0 +1,39 @@
+﻿@model List<ResultCategoryDto>
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Category Name</td>
+                <td>Description</td>
+                <td>Delete</td>
+                <td>Update</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.CategoryId</td>
+                    <td>
+                        <div class="card flex align-items-center p-2" style="width: 6rem;">
+                            <img src="@item.CategoryImagePath" class="card-img-top" style="height:70px; ">
+                            <span class="text-center pt-1">@item.CategoryName</span>
+
+                        </div>
+                    </td>
+
+                    <td>@item.CategoryDescription</td>
+                    <td><a href="/Category/DeleteCategory/@item.CategoryId">Delete</a></td>
+                    <td><a href="/Category/UpdateCategory/@item.CategoryId">Update</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Category/CreateCategory" class="btn btn-primary">Add Category</a>
+</div>

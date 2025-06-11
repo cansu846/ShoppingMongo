@@ -8,5 +8,9 @@
         public string ImageUrl { get; set; }
         public bool Status { get; set; }
         public int StockCount { get; set; }
+        public string CategoryId { get; set; }
+        public string CategoryName { get; set; }
+        public IFormFile ImageUrlFormFile { get; set; }
+
     }
 }

@@ -1,0 +1,15 @@
+﻿🎯 public IFormFile CategoryImage
+Kullanıcının yüklediği dosyayı (örneğin resmi) temsil eder.
+
+Bu, formdan gelen binary içeriği taşır.
+
+Sunucuya yükleme işlemi için kullanılır, dosya içeriğine erişim sağlar.
+
+📌 ASP.NET Core’da dosya yüklemek için IFormFile kullanılır.
+
+🎯 public string CategoryImagePath
+Bu, yüklenen dosyanın sunucudaki yolu veya veritabanına kaydedilecek adres bilgisidir.
+
+Yani dosya kaydedildikten sonra nereye yüklendiğini temsil eder.
+
+📌 Genelde veritabanına sadece dosyanın yolu (/images/img123.jpg) kaydedilir, dosyanın kendisi değil.

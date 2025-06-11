@@ -78,5 +78,6 @@ namespace ShoppingMongo.Controllers
             await _productService.UpdateProductAsync(updateProductDto);
             return RedirectToAction("Index");
         }
+
     }
 }

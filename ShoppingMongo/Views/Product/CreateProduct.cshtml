@@ -6,7 +6,7 @@
 <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
 <div class="container">
-    <form method="post">
+    <form method="post" enctype="multipart/form-data">
         <label>Product Name</label>
         <input class="form-control" type="text" asp-for="ProductName" />
         <br />
@@ -15,9 +15,7 @@
         <br />
         <label>Image</label>
         <input class="form-control" type="file" asp-for="ImageUrlFormFile" />
-        <br />
-        <label>Product Name</label>
-        <input class="form-control" type="text" asp-for="ProductName" />
+      
         <br />
         <label>Stock Count</label>
         <input class="form-control" type="number" asp-for="StockCount" />

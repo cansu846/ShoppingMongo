@@ -65,9 +65,16 @@ namespace ShoppingMongo.Services.ProductService
                 var resultProductDto = _mapper.Map<ResultProductDto>(product);
                 //var temp = await _categoryService.GetCategoryNameByIdAsync(product.CategoryId)
                 resultProductDto.CategoryName = await _categoryService.GetCategoryNameByIdAsync(product.CategoryId);
-                result.Add(resultProductDto);   
+                result.Add(resultProductDto);
             }
-            return result;  
+            return result;
+        }
+
+        public async Task<List<ResultProductDto>> GetProductByCategoryName(string categoryId)
+        {
+            var values = await _productCollection.Find(x => x.CategoryId == categoryId).ToListAsync();
+            var result = _mapper.Map<List<ResultProductDto>>(values);
+            return result;
         }
 
         public async Task<GetProductByIdDto> GetProductByIdAsync(string id)

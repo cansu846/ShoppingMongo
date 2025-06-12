@@ -8,8 +8,10 @@ C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Shoppin
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\ShoppingMongo.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\ShoppingMongo.pdb
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\DnsClient.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\MailKit.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Microsoft.Build.Locator.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
@@ -32,6 +34,7 @@ C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Microso
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\MimeKit.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\MongoDB.Bson.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\MongoDB.Driver.dll
 C:\Users\Cansu\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net9.0\Mono.TextTemplating.dll

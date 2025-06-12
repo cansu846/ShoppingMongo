@@ -11,7 +11,7 @@
 	<!-- Header -->
 	@await Component.InvokeAsync("_MenuPartial")
 
-	
+
 	<!-- Slider -->
 	@await Component.InvokeAsync("_SliderPartial")
 
@@ -192,3 +192,17 @@
 
 </body>
 </html>
+<script>
+	
+	<!-- SweetAlert2 JS -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+		console.log("@TempData["SuccessMessage"]");
+@if (TempData["Success"] != null)
+{
+	<div class="alert alert-success">
+		@TempData["SuccessMessage"]
+	</div>
+}
+</script>

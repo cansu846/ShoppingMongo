@@ -22,6 +22,8 @@ namespace ShoppingMongo.Controllers
 
             var couponCode = GenerateCouponCode(); // örnek: KUPON-XYZ123
             await _emailService.SendDiscountEmailAsync(email, couponCode);
+
+            //Tempdata yonlendirme olmazsa calısmaz
             TempData["SuccessMessage"] = "Indirim kuponu e-posta adresinize gonderildi";
 
             return RedirectToAction("Index","Default");

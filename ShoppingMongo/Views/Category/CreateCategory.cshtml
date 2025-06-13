@@ -1,70 +1,29 @@
 ﻿@model CreateCategoryDto
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
-<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
 @*  enctype="multipart/form-data" çok önemli! Resim gibi binary verilerin gönderimi için şart.
  *@
-<div class="container mt-5">
-    <form id="createCategoryForm" method="post" enctype="multipart/form-data">
-        <label>Category Name</label>
-        <input class="form-control" type="text" asp-for="CategoryName"/>
-        <br />
-        <label>Category Description</label>
-        <input class="form-control" type="text" asp-for="CategoryDescription" />
-        <br />
-        <label>Category Image</label>
-        <input class="form-control" type="file" asp-for="CategoryImage" />
-        <br />
-        <button class="btn btn-primary" type="submit">Add Category</button>
-        </form>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card m-4 p-3">
+            <div class="card-body px-0 pt-0 pb-2">
+                <form id="createCategoryForm" method="post" enctype="multipart/form-data">
+                    <label>Category Name</label>
+                    <input class="form-control" type="text" asp-for="CategoryName" />
+                    <br />
+                    <label>Category Description</label>
+                    <input class="form-control" type="text" asp-for="CategoryDescription" />
+                    <br />
+                    <label>Category Image</label>
+                    <input class="form-control" type="file" asp-for="CategoryImage" />
+                    <br />
+                    <button class="btn btn-primary" type="submit">Add Category</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- SweetAlert -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
-
-<script>
-    $("#createCategoryForm").submit(function(e){
-        e.preventDefault(); //sayfanın yenilenmesini engeller.
-
-        var formData = new FormData(this); //Form verisini alır (resim varsa gerekli)
-        //jQuery ile AJAX POST isteği gönderilir.
-        $.ajax({
-            type:"post",
-            url:"/Category/CreateCategory",
-            data:formData,
-            contentType:false,
-            processData:false,
-            //Sunucudan gelen yanıt response objesiyle alınır.
-            success:function(response){
-                if(response.success){
-                    Swal.fire({
-                        icon:"success",
-                        title:"Success",
-                        text:response.message,
-                        confirmButtonText:"OK"
-                    }).then(()=>{
-                        window.location.href="/Category/Index";  //Kullanıcı 'OK' deyince yönlendir
-                    });
-                }else{
-                    Swal.fire({
-                        icon:"error",
-                        title:"Error !",
-                        text:response.message
-                    });
-                }
-            },
-            //Sunucu hatası, bağlantı problemi vs. durumunda kullanıcıya hata mesajı gösterilir.
-            error:function(){
-                Swal.fire({
-                    icon:"error",
-                    title:"Server Error",
-                    text:"An unexpected error occured."
-                });
-            }
-
-        });
-    });
-</script>

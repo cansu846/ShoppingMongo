@@ -1,5 +1,5 @@
 ﻿@model List<ResultProductDto>
-<section class="bg0 p-t-23 p-b-140" id="productArea">
+<section class="bg0 p-t-23 p-b-140" id="searchProductResultArea">
     <div class="container">
         <div class="p-b-10">
             <h3 class="ltext-103 cl5">
@@ -258,11 +258,11 @@
                 </div>
             </div>
         </div>
-        <div class="row product-list" >
+        <div class="row product-list" id="productAreas">
 
             @foreach (var item in Model)
             {
-                <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 product-item @item.CategoryName.ToLower()">
+                <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 product-item @item.CategoryName.ToLower()" >
                     <!-- Block2 -->
                     <div class="block2">
                         <div class="block2-pic hov-img0" style="width:280px; height:320px">
@@ -326,7 +326,7 @@
                 type:"get",
                 data:{searchString:searchValue},
                 success:function(result){
-                    $("#productArea").html(result)
+                           $("#searchProductResultArea").html(result)
                 },
                 error:function(){
                     alert("Arama sırasında hata oluştu");
@@ -415,7 +415,7 @@
                     html = '<p class="text-center">Bu kategoriye ait ürün bulunamadı.</p>';
                 }
 
-                $('#productArea').html(html); // 👈 ürünleri yerleştir
+                $('#productAreas').html(html); // 👈 ürünleri yerleştir
             }
             });
         });

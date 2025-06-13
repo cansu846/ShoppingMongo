@@ -1,23 +1,29 @@
 ﻿@model GetCategoryByIdDto
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-<div class="container mt-5">
-    <form id="updateCategoryForm" method="post" enctype="multipart/form-data">
-        <input type="hidden" asp-for="CategoryId"/>
-        <label>Category Name</label>
-        <input class="form-control" type="text" asp-for="CategoryName" />
-        <br />
-        <label>Category Description</label>
-        <input class="form-control" type="text" asp-for="CategoryDescription" />
-        <br />
-        <label>Category Image</label>
-        <input class="form-control" type="file" asp-for="CategoryImage" />
-        <br />
-        <button class="btn btn-primary" type="submit">Update Category</button>
-    </form>
+<div class="row">
+    <div class="col-12">
+        <div class="card m-4 p-3">
+            <div class="card-body px-0 pt-0 pb-2">
+                <form id="updateCategoryForm" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="CategoryId" />
+                    <label>Category Name</label>
+                    <input class="form-control" type="text" asp-for="CategoryName" />
+                    <br />
+                    <label>Category Description</label>
+                    <input class="form-control" type="text" asp-for="CategoryDescription" />
+                    <br />
+                    <label>Category Image</label>
+                    <input class="form-control" type="file" asp-for="CategoryImage" />
+                    <br />
+                    <button class="btn btn-primary" type="submit">Update Category</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- SweetAlert -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->

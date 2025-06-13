@@ -2,6 +2,7 @@
 using ShoppingMongo.Services.CategoryService;
 using ShoppingMongo.Services.CustomerService;
 using ShoppingMongo.Services.EmailService;
+using ShoppingMongo.Services.ProductDetailImageService;
 using ShoppingMongo.Services.ProductService;
 using ShoppingMongo.Settings;
 using System.Reflection;
@@ -25,6 +26,7 @@ builder.Services.AddScoped<IEmailService,EmailService>();
 builder.Services.AddScoped<ICategoryService,CategoryManager>();
 builder.Services.AddScoped<ICustomerService,CustomerManager>();
 builder.Services.AddScoped<IProductService,ProductManager>();
+builder.Services.AddScoped<IProductDetailImageService,ProductDetailImageManager>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 

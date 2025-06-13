@@ -12,12 +12,14 @@ namespace ShoppingMongo.Controllers
         {
             _categoryService = categoryService;
         }
+
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             var values = await _categoryService.GetAllCategoryAsync();
             return View(values);
         }
+
         [HttpGet]
         public IActionResult CreateCategory()
         {
@@ -29,6 +31,7 @@ namespace ShoppingMongo.Controllers
         {
             if (createCategoryDto.CategoryName != null && createCategoryDto.CategoryImage != null)
             {
+
                 try
                 {
 

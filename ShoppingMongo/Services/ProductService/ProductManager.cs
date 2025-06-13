@@ -14,7 +14,7 @@ namespace ShoppingMongo.Services.ProductService
         private readonly ICategoryService _categoryService;
         public ProductManager(IMapper mapper,
             IDatabaseSettings databaseSettings,
-            ICategoryService categoryService)
+           ICategoryService categoryService)
         {
             var client = new MongoClient(databaseSettings.ConnectionString);
             var database = client.GetDatabase(databaseSettings.DatabaseName);

@@ -1,39 +1,51 @@
 ﻿@model List<ResultCategoryDto>
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-<div class="container">
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <td>Id</td>
-                <td>Category Name</td>
-                <td>Description</td>
-                <td>Delete</td>
-                <td>Update</td>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.CategoryId</td>
-                    <td>
-                        <div class="card flex align-items-center p-2" style="width: 6rem;">
-                            <img src="@item.CategoryImagePath" class="card-img-top" style="height:70px; ">
-                            <span class="text-center pt-1">@item.CategoryName</span>
+<div class="row">
+    <div class="col-12">
+        <div class="card mb-4 p-3">
+            <div class="card-header pb-0">
+                <h3 class="mb-5" style="text-align:center;">Categories</h3>
 
-                        </div>
-                    </td>
+            </div>
+            <div class="card-body px-0 pt-0 pb-2">
+                <div class="table-responsive p-0">
+                    <table class="table align-items-center mb-0">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Category Name</th>
+                                <th>Description</th>
+                                <th>Delete</th>
+                                <th>Update</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.CategoryId</td>
+                                    <td>
+                                        <div class="card flex align-items-center p-2" style="width: 6rem;">
+                                            <img src="@item.CategoryImagePath" class="card-img-top" style="height:70px; ">
+                                            <span class="text-center pt-1">@item.CategoryName</span>
 
-                    <td>@item.CategoryDescription</td>
-                    <td><a href="/Category/DeleteCategory/@item.CategoryId">Delete</a></td>
-                    <td><a href="/Category/UpdateCategory/@item.CategoryId">Update</a></td>
-                </tr>
-            }
-        </tbody>
-    </table>
-    <a href="/Category/CreateCategory" class="btn btn-primary">Add Category</a>
+                                        </div>
+                                    </td>
+
+                                    <td>@item.CategoryDescription</td>
+                                    <td><a href="/Category/DeleteCategory/@item.CategoryId" class="btn btn-danger">Delete</a></td>
+                                    <td><a href="/Category/UpdateCategory/@item.CategoryId" class="btn btn-success">Update</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <a href="/Category/CreateCategory" class="btn btn-primary">Add Category</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

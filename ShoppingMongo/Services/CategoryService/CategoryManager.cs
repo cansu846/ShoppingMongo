@@ -36,7 +36,12 @@ namespace ShoppingMongo.Services.CategoryService
                 //dosya adını veritabanında tutar
                 createCategoryDto.CategoryImagePath = "/cozastore-master/images/" + fileName;
             }
-            var category = _mapper.Map<Category>(createCategoryDto);    
+            //var category = _mapper.Map<Category>(createCategoryDto);    
+            var category = new Category { 
+                CategoryName = createCategoryDto.CategoryName,
+                CategoryImagePath = createCategoryDto.CategoryImagePath,    
+                CategoryDescription = createCategoryDto.CategoryDescription
+            };
             await _categoryCollection.InsertOneAsync(category);   
         }
 
@@ -84,7 +89,14 @@ namespace ShoppingMongo.Services.CategoryService
             //buradaki ?; Null koşullu erişim (null-conditional operator)
             //Eğer _mapper null değilse, Map<Category>(...) metodunu çağır.
             //Eğer _mapper null ise, bu satırı sessizce atla ve null döndür.
-            var category = _mapper?.Map<Category>(updateCategoryDto);
+            //var category = _mapper?.Map<Category>(updateCategoryDto);
+            var category = new Category
+            {
+                CategoryId = updateCategoryDto.CategoryId,  
+                CategoryName = updateCategoryDto.CategoryName,
+                CategoryImagePath = updateCategoryDto.CategoryImagePath,
+                CategoryDescription = updateCategoryDto.CategoryDescription
+            };
             await _categoryCollection.FindOneAndReplaceAsync(x=>x.CategoryId==updateCategoryDto.CategoryId, category);
         }
     }

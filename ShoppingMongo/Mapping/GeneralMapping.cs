@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ShoppingMongo.Dtos.CategoryDtos;
 using ShoppingMongo.Dtos.CustomerDtos;
+using ShoppingMongo.Dtos.ProdcutDetailImageDtos;
 using ShoppingMongo.Dtos.ProductDtos;
 using ShoppingMongo.Entities;
 
@@ -24,6 +25,11 @@ namespace ShoppingMongo.Mapping
             CreateMap<UpdateProductDto, Product>().ReverseMap();
             CreateMap<GetProductByIdDto, Product>().ReverseMap();
             CreateMap<ResultProductDto, Product>().ReverseMap();
+
+            CreateMap<ResultProductDetailImageDto, ProductDetailImage>().ReverseMap();
+            CreateMap<GetProductDetailImageDto, ProductDetailImage>().ReverseMap();
+            CreateMap<UpdateProductDetailImageDto, ProductDetailImage>().ReverseMap();
+            CreateMap<CreateProductDetailImageDto, ProductDetailImage>().ReverseMap();
         }
     }
 }

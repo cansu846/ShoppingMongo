@@ -1,0 +1,44 @@
+﻿@model List<ResultProductDetailImageDto>
+
+@{
+    Layout = null;
+}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="~/css/site.css" rel="stylesheet" />
+<div class="container mt-5">
+    <table class="table table-hover ">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>ProductId</td>
+                <td>Image1</td>
+                <td>Image2</td>
+                <td>Image3</td>
+                <td>Delete</td>
+                <td>Update</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.ProductId</td>
+                    <td>@item.ImageUrl1</td>
+                    <td>@item.ImageUrl2</td>
+                    <td>@item.ImageUrl3</td>
+                    <td><a href="/ProductDetailImage/DeleteProductDetailImage/@item.Id" class="btn btn-danger">Delete</a></td>
+                    <td><a href="/ProductDetailImage/UpdateProductDetailImage/@item.Id" class="btn btn-success">Update</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/ProductDetailImage/CreateProductDetailImage" class="btn btn-primary">Create</a>
+</div>

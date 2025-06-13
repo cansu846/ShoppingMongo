@@ -1,0 +1,19 @@
+﻿@model CreateProductDetailImageDto
+@{
+    Layout = null;
+}
+
+<div class="container">
+    <form method="post" enctype="multipart/form-data">
+        <label>Product id</label>
+        <input type="number" class="form-control" asp-for="ProductId"/>
+        <br />
+        <input type="file" class="form-control" asp-for="ImageUrlFromFile1" placeholder="Please choose file"/>
+        <br />
+        <input type="file" class="form-control" asp-for="ImageUrlFromFile2" placeholder="Please choose file" />
+        <br />
+        <input type="file" class="form-control" asp-for="ImageUrlFromFile3" placeholder="Please choose file" />
+        <br />
+        <button type="submit">Create</button>
+    </form>
+</div>

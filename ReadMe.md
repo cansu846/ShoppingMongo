@@ -81,7 +81,8 @@ Bu sayede AutoMapper şunu yapar:
 
 Profile sınıfı, hangi sınıfın hangisine nasıl çevrileceğini belirtir.
 
-![Screenshot 2025-06-13 231813](https://github.com/user-attachments/assets/ac416759-be18-4557-af6b-eef44989a940)
+![Screenshot 2025-06-13 231159](https://github.com/user-attachments/assets/5b9fcf27-c79b-4671-a2a9-7ce60eb68d1d)
+![Screenshot 2025-06-13 231144](https://github.com/user-attachments/assets/07dc0d33-ef61-4396-a1d3-48e6ff224a14)
 ![Screenshot 2025-06-13 231746](https://github.com/user-attachments/assets/4c5aed9b-ee8d-4108-87af-be3e6c694530)
 ![Screenshot 2025-06-13 231716](https://github.com/user-attachments/assets/17fc123f-71f8-4200-bbb8-978a78c1ccf8)
 ![Screenshot 2025-06-13 231621](https://github.com/user-attachments/assets/d42f3f28-3669-4cff-92da-1cb06c7f8e6e)
@@ -89,6 +90,5 @@ Profile sınıfı, hangi sınıfın hangisine nasıl çevrileceğini belirtir.
 ![Screenshot 2025-06-13 231441](https://github.com/user-attachments/assets/5fa0b16a-7d7c-4693-a300-5f5c1c90ecb9)
 ![Screenshot 2025-06-13 231422](https://github.com/user-attachments/assets/3a69c909-5588-4320-89eb-a75708939f69)
 ![Screenshot 2025-06-13 231249](https://github.com/user-attachments/assets/1722be05-d0fb-4033-98f1-487567996039)
-![Screenshot 2025-06-13 231159](https://github.com/user-attachments/assets/5b9fcf27-c79b-4671-a2a9-7ce60eb68d1d)
-![Screenshot 2025-06-13 231144](https://github.com/user-attachments/assets/07dc0d33-ef61-4396-a1d3-48e6ff224a14)
+![Screenshot 2025-06-13 231813](https://github.com/user-attachments/assets/ac416759-be18-4557-af6b-eef44989a940)
 

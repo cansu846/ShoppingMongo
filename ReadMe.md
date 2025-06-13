@@ -81,6 +81,8 @@ Bu sayede AutoMapper şunu yapar:
 
 Profile sınıfı, hangi sınıfın hangisine nasıl çevrileceğini belirtir.
 
+# Ekran Görüntüleri
+
 ![Screenshot 2025-06-13 231159](https://github.com/user-attachments/assets/5b9fcf27-c79b-4671-a2a9-7ce60eb68d1d)
 ![Screenshot 2025-06-13 231144](https://github.com/user-attachments/assets/07dc0d33-ef61-4396-a1d3-48e6ff224a14)
 ![Screenshot 2025-06-13 231746](https://github.com/user-attachments/assets/4c5aed9b-ee8d-4108-87af-be3e6c694530)

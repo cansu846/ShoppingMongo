@@ -1,33 +1,37 @@
 ﻿@model GetProductByIdDto
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-<div class="container">
-    <form method="post" enctype="multipart/form-data">
-        <input type="hidden" asp-for="ProductId"/>
-        <label>Product Name</label>
-        <input class="form-control" type="text" asp-for="ProductName" />
-        <br />
-        <label>Price</label>
-        <input class="form-control" type="text" asp-for="ProductPrice" />
-        <br />
-        <label>Image</label>
-        <input class="form-control" type="file" asp-for="ImageUrlFormFile" />
-        <br />
-        <label>Product Name</label>
-        <input class="form-control" type="text" asp-for="ProductName" />
-        <br />
-        <label>Stock Count</label>
-        <input class="form-control" type="number" asp-for="StockCount" />
-        <br />
-        <label>Categories</label>
-        <select class="form-control form-select " asp-for="CategoryId" asp-items="@ViewBag.v">
-            <option value="">-- Select Category --</option>
-        </select>
-        <br />
-        <button class="btn btn-primary" type="submit">Update Product</button>
-    </form>
+<div class="row">
+    <div class="col-12">
+        <div class="card p-3">
+            <div class="card-body px-0 pt-0 pb-2">
+                <form method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="ProductId" />
+                    <label>Product Name</label>
+                    <input class="form-control" type="text" asp-for="ProductName" />
+                    <br />
+                    <label>Price</label>
+                    <input class="form-control" type="text" asp-for="ProductPrice" />
+                    <br />
+                    <label>Image</label>
+                    <input class="form-control" type="file" asp-for="ImageUrlFormFile" />
+                    <br />
+                    <label>Product Name</label>
+                    <input class="form-control" type="text" asp-for="ProductName" />
+                    <br />
+                    <label>Stock Count</label>
+                    <input class="form-control" type="number" asp-for="StockCount" />
+                    <br />
+                    <label>Categories</label>
+                    <select class="form-control form-select " asp-for="CategoryId" asp-items="@ViewBag.v">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                    <br />
+                    <button class="btn btn-primary" type="submit">Update Product</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>

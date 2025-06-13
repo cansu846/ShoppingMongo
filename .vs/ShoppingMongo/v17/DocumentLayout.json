@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\services\\categoryservice\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\services\\categoryservice\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\category\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\category\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\category\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|solutionrelative:shoppingmongo\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FF61F96-BE8C-43A2-A9D5-3E18A5EAE2E9}|ShoppingMongo\\ShoppingMongo.csproj|c:\\users\\cansu\\source\\repos\\shoppingmongo\\shoppingmongo\\viewcomponents\\adminlayout\\_navbaradminlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,8 +49,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 351,
-          "SelectedChildIndex": 7,
+          "DockedHeight": 390,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,33 +58,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Services\\CategoryService\\CategoryManager.cs",
-              "RelativeDocumentMoniker": "ShoppingMongo\\Services\\CategoryService\\CategoryManager.cs",
-              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Services\\CategoryService\\CategoryManager.cs",
-              "RelativeToolTip": "ShoppingMongo\\Services\\CategoryService\\CategoryManager.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T19:18:12.287Z",
+              "DocumentIndex": 3,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "ShoppingMongo\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T19:37:26.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "CreateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Product\\CreateProduct.cshtml",
+              "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Product\\CreateProduct.cshtml",
+              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Product\\CreateProduct.cshtml",
+              "RelativeToolTip": "ShoppingMongo\\Views\\Product\\CreateProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T19:35:06.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "ShoppingMongo\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T19:30:04.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShoppingMongo\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShoppingMongo\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T19:30:01.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UpdateCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Category\\UpdateCategory.cshtml",
               "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Category\\UpdateCategory.cshtml",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Category\\UpdateCategory.cshtml",
               "RelativeToolTip": "ShoppingMongo\\Views\\Category\\UpdateCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-13T19:07:05.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_ScriptAdminLayout.cs",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\ViewComponents\\AdminLayout\\_ScriptAdminLayout.cs",
               "RelativeDocumentMoniker": "ShoppingMongo\\ViewComponents\\AdminLayout\\_ScriptAdminLayout.cs",
@@ -89,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "_NavbarAdminLayout.cs",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\ViewComponents\\AdminLayout\\_NavbarAdminLayout.cs",
               "RelativeDocumentMoniker": "ShoppingMongo\\ViewComponents\\AdminLayout\\_NavbarAdminLayout.cs",
@@ -102,20 +149,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CreateCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Category\\CreateCategory.cshtml",
               "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Category\\CreateCategory.cshtml",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Category\\CreateCategory.cshtml",
               "RelativeToolTip": "ShoppingMongo\\Views\\Category\\CreateCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-13T18:07:06.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Shared\\_AdminLayout.cshtml",
@@ -128,34 +175,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoppingMongo\\Views\\Category\\Index.cshtml",
               "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Views\\Category\\Index.cshtml",
               "RelativeToolTip": "ShoppingMongo\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-13T17:39:41.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ShoppingMongo\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Cansu\\source\\repos\\ShoppingMongo\\ShoppingMongo\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ShoppingMongo\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwEYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T17:39:38.091Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 53,
+          "DockedHeight": 14,
           "SelectedChildIndex": -1,
           "Children": [
             {

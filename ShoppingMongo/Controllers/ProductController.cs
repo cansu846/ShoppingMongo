@@ -26,7 +26,6 @@ namespace ShoppingMongo.Controllers
             return View(values);
         }
 
-
         [HttpGet]
         public async Task<IActionResult> CreateProduct()
         {
@@ -71,7 +70,6 @@ namespace ShoppingMongo.Controllers
             var exsistProdcut = await _productService.GetProductByIdAsync(id);
             return View(exsistProdcut);
         }
-
 
         [HttpPost]
         public async Task<IActionResult> UpdateProduct(UpdateProductDto updateProductDto)

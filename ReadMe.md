@@ -35,7 +35,7 @@ AutoMapper – DTO dönüşümleri için
 Dependency Injection – Servis bağımlılık yönetimi için
 
 
-# Projede kullanılan özelliklere ait bilgilendirme amaçlı bilgiler
+# Projede kullanılan özelliklerin Açıklamaları
 
  ✅ builder.Services
 ASP.NET Core uygulamasının servis (bağımlılık) koleksiyonudur.
